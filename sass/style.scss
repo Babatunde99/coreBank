@@ -1,0 +1,52 @@
+@import "variables";
+@import "global";
+
+.headerSec1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: $headBgcolor;
+  align-items: center;
+  width: 100%;
+  font-family: $font1;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  .directory {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+  }
+  .contact {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .arrowdwn {
+    align-items: center;
+  }
+}
+.headerSec2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: $font1;
+  color: #12082d;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+  }
+  button {
+    background: linear-gradient(180deg, #ef9b11 0%, #405558 100%);
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+  }
+}

@@ -1,1 +1,93 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+.headerSec1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: rgba(64, 85, 88, 0.6);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  font-family: "Poppins";
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.headerSec1 .directory {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.headerSec1 .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerSec1 .arrowdwn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerSec2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  font-family: "Poppins";
+  color: #12082d;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.headerSec2 ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 500px;
+}
+
+.headerSec2 button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#ef9b11), to(#405558));
+  background: linear-gradient(180deg, #ef9b11 0%, #405558 100%);
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+}
+/*# sourceMappingURL=style.css.map */
