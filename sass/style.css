@@ -107,24 +107,27 @@ body {
 }
 
 .section1 h1 {
-  font-weight: 700;
+  font-weight: 900;
   font-size: 64px;
   color: #12082d;
   padding-top: 159px;
   padding-left: 116px;
   height: 152x;
+  line-height: 1.2;
 }
 
 .section1 p {
+  padding-top: 20px;
   color: #12082d;
   padding-left: 116px;
+  font-size: 20px;
 }
 
 .section2 {
   background-image: url(/images/sectionTwoBg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1306px;
+  height: 1300px;
   font-family: "Poppins";
   padding-left: 116px;
   padding-right: 116px;
@@ -151,6 +154,10 @@ body {
   color: black;
   font-size: 15px;
   font-weight: 600;
+}
+
+.finBox p {
+  padding-top: 10px;
 }
 
 .whatWeDo {
@@ -220,5 +227,86 @@ body {
   font-weight: 300;
   font-size: 20px;
   line-height: 40px;
+}
+
+.section3 {
+  padding-top: 50px;
+  height: 560px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 116px;
+  padding-right: 116px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(239, 155, 17, 0.5)), to(rgba(64, 85, 88, 0.5)));
+  background-image: linear-gradient(180deg, rgba(239, 155, 17, 0.5) 0%, rgba(64, 85, 88, 0.5) 100%);
+}
+
+.section3 h1 {
+  font-weight: bold;
+  font-size: 40px;
+  width: 700px;
+  line-height: 76px;
+}
+
+.section3 p {
+  padding-bottom: 100px;
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.finFree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 10px;
+  font-weight: 400;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 150px;
+}
+
+.btnSpace {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 500px;
+}
+
+.sec3ff {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 35px;
+}
+
+.CanBut {
+  color: white;
+  width: 200px;
+  height: 50px;
+  padding: 30px, 30px, 30px, 30px;
+  border-radius: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ef9b11), to(#405558));
+  background: linear-gradient(180deg, #ef9b11 0%, #405558 100%);
+}
+
+.OeBbut {
+  color: #9c9292;
+  width: 200px;
+  height: 50px;
+  padding: 30px, 30px, 30px, 30px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  background-color: none;
 }
 /*# sourceMappingURL=style.css.map */

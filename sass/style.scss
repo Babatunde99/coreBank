@@ -66,23 +66,26 @@
   font-family: $font1;
 
   h1 {
-    font-weight: 700;
+    font-weight: 900;
     font-size: 64px;
     color: rgba(18, 8, 45, 1);
     padding-top: 159px;
     padding-left: 116px;
     height: 152x;
+    line-height: 1.2;
   }
   p {
+    padding-top: 20px;
     color: rgba(18, 8, 45, 1);
     padding-left: 116px;
+    font-size: 20px;
   }
 }
 .section2 {
   background-image: url(/images/sectionTwoBg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1306px;
+  height: 1300px;
   font-family: $font1;
   padding-left: 116px;
   padding-right: 116px;
@@ -103,6 +106,10 @@
   color: rgba(0, 0, 0, 1);
   font-size: 15px;
   font-weight: 600;
+
+  p {
+    padding-top: 10px;
+  }
 }
 .whatWeDo {
   margin-top: 100px;
@@ -157,4 +164,67 @@
     font-size: 20px;
     line-height: 40px;
   }
+}
+
+.section3 {
+  padding-top: 50px;
+  height: 560px;
+  justify-content: space-between;
+  display: flex;
+  padding-left: 116px;
+  padding-right: 116px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(239, 155, 17, 0.5) 0%,
+    rgba(64, 85, 88, 0.5) 100%
+  );
+  h1 {
+    font-weight: bold;
+    font-size: 40px;
+    width: 700px;
+    line-height: 76px;
+  }
+  p {
+    padding-bottom: 100px;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+  }
+}
+
+.finFree {
+  display: flex;
+  font-size: 10px;
+  font-weight: 400;
+  justify-content: space-between;
+  width: 150px;
+}
+.btnSpace {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.sec3ff {
+  align-self: center;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 35px;
+}
+.CanBut {
+  color: white;
+  width: 200px;
+  height: 50px;
+  padding: 30px, 30px, 30px, 30px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ef9b11 0%, #405558 100%);
+}
+.OeBbut {
+  color: rgb(156, 146, 146);
+  width: 200px;
+  height: 50px;
+  padding: 30px, 30px, 30px, 30px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  background-color: none;
 }
