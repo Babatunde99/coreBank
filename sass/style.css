@@ -90,4 +90,135 @@ body {
   width: 100px;
   height: 30px;
 }
+
+.headerSec2 .getAppBtn:hover {
+  background: #405558;
+  color: #ffff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.section1 {
+  background-image: url(/images/section1Bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 629px;
+  font-family: "Poppins";
+}
+
+.section1 h1 {
+  font-weight: 700;
+  font-size: 64px;
+  color: #12082d;
+  padding-top: 159px;
+  padding-left: 116px;
+  height: 152x;
+}
+
+.section1 p {
+  color: #12082d;
+  padding-left: 116px;
+}
+
+.section2 {
+  background-image: url(/images/sectionTwoBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1306px;
+  font-family: "Poppins";
+  padding-left: 116px;
+  padding-right: 116px;
+}
+
+.section2 .finances {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+}
+
+.finBox {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 150px;
+  height: 150px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.whatWeDo {
+  margin-top: 100px;
+  font-family: "Poppins";
+}
+
+.whatWeDo h1 {
+  font-weight: bold;
+  font-size: 40px;
+  width: 800px;
+  line-height: 76px;
+}
+
+.finFreedom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 150px;
+}
+
+.finFreedom h4 {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.ff {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.WwdLists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75pc;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.WwdLists-item {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 370px;
+  height: 500px;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.WwdLists-item h4 {
+  padding-top: 10px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 76px;
+}
+
+.WwdLists-item p {
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 40px;
+}
 /*# sourceMappingURL=style.css.map */

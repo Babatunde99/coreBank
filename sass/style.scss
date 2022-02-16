@@ -49,4 +49,112 @@
     width: 100px;
     height: 30px;
   }
+
+  .getAppBtn:hover {
+    background: #405558;
+    color: #ffff;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+}
+
+.section1 {
+  background-image: url(/images/section1Bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 629px;
+  font-family: $font1;
+
+  h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: rgba(18, 8, 45, 1);
+    padding-top: 159px;
+    padding-left: 116px;
+    height: 152x;
+  }
+  p {
+    color: rgba(18, 8, 45, 1);
+    padding-left: 116px;
+  }
+}
+.section2 {
+  background-image: url(/images/sectionTwoBg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1306px;
+  font-family: $font1;
+  padding-left: 116px;
+  padding-right: 116px;
+
+  .finances {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+}
+.finBox {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 150px;
+  height: 150px;
+  padding-left: 20px;
+  padding-top: 20px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 15px;
+  font-weight: 600;
+}
+.whatWeDo {
+  margin-top: 100px;
+  font-family: $font1;
+  h1 {
+    font-weight: bold;
+    font-size: 40px;
+    width: 800px;
+    line-height: 76px;
+  }
+}
+.finFreedom {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+
+  h4 {
+    font-size: 10px;
+    font-weight: 400;
+  }
+}
+.ff {
+  align-self: center;
+}
+
+.WwdLists {
+  display: flex;
+  width: 75pc;
+  justify-content: space-between;
+}
+
+.WwdLists-item {
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 370px;
+  height: 500px;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-left: 30px;
+
+  h4 {
+    padding-top: 10px;
+    font-family: $font1;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 76px;
+  }
+
+  p {
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 40px;
+  }
 }
